@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructor_function</title>
+</head>
+<body>
+    
+<script>
+        function employee(name,id, age){
+            this.name=name;
+            this.id=id;
+            this.age=age;
+        this.getDetail= function(){
+            document.write(`<br><br>Name:- ${this.name}<br> ID:-&nbsp&nbsp&nbsp&nbsp&nbsp ${this.id}<br> AGE:-&nbsp&nbsp ${this.age} `)
+        }
+        }
+        let employee1=new employee("Urvi Sharma",1821,22);
+        let employee2=new employee("Adarsh",1826,24);
+        let employee3=new employee("Namrata Tiwari",1826,23);
+        let employee4=new employee("lucky Chauhan",1824,22);
+        
+        employee1.getDetail()
+        employee2.getDetail()
+        employee3.getDetail()
+        employee4.getDetail()
+
+
+        
+
+
+        
+</script>
+</body>
+</html>
