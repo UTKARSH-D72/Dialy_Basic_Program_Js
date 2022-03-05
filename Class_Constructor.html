@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class_constructor</title>
+</head>
+<body>
+    <h1 ></h1>
+    <script>
+class emp{
+constructor(name, age, id){
+    this.name=name;
+    this.age=age;
+    this.id=id;
+   this.getdata=function(){
+       document.write(`name ${this.name}, age ${this.age}, id ${this.id}`)
+        }       
+}
+
+}
+ let obj1 = new emp("Utkarsh", 25, "E1234");
+
+ obj1.getdata();
+
+
+ 
+
+    </script>
+</body>
+</html>
